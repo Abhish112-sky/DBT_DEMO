@@ -1,5 +1,5 @@
 WITH BIKE AS (
-    SELECT
+    SELECT DISTINCT
     start_station_id AS station_id,
     start_station_name AS station_name,
     start_lat AS start_station_lat,
